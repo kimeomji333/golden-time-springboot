@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.domain.EmergencyRequestDTO;
+import com.example.demo.domain.EmergencyResponseDTO;
 import com.example.demo.service.EmergencyService;
 
 @RestController
@@ -18,10 +19,11 @@ public class EmergencyController {
 	private EmergencyService emergencyService; 
 
 //	응급실 실시간 가용병상정보 조회
-	@GetMapping("available-beds")
-	public void getEmergencySearch(@RequestBody EmergencyRequestDTO emergencyRequest) {
-		
-	}
+//	@GetMapping("available-beds")
+//	public EmergencyResponseDTO getEmergencySearch(@RequestBody EmergencyRequestDTO emergencyRequest) {
+//		
+//		return null;
+//	}
 	
 	
 
